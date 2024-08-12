@@ -1,0 +1,14 @@
+{
+  "theme": "DARK",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "Arity_Inventory Test Report",
+  "reportName": "Automation_Test_Report",
+  "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "js": "",
+  "css": "",
+  "reportPath": "test-output/" // Specify the path where reports should be saved
+}

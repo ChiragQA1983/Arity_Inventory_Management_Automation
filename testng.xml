@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestCases.TC_Mini_Store_Invoice"/>
+      <class name="TestCases.TC_Add_Item_Qty"/>
+      <class name="TestCases.TC_Add_Notification"/>
+      <class name="TestCases.TC_Customer_Import_ByCSV"/>
+      <class name="TestCases.TC_Dump_Stock"/>
+      <class name="TestCases.TC_Store_Invoice"/>
+      <class name="TestCases.TC_SearchCustomer"/>
+      <class name="TestCases.TC_ConsistencyCustomer_ImportCSV"/>
+      <class name="TestCases.TC_Invalid_Customer_FormatCSV"/>
+      <class name="TestCases.TC_Invalid_LoginTest"/>
+      <class name="TestCases.TC_ADD_Customer"/>
+      <class name="TestCases.TC_Test_Bank_Transaction"/>
+      <class name="TestCases.TC_SPH_MSPH_LedgerReport"/>
+      <class name="TestCases.TC_Store_Mini_Store_Ledger"/>
+      <class name="TestCases.TC_Valid_LoginTest"/>
+      <class name="TestCases.TC_AddRetailStores"/>
+      <class name="TestCases.TC_StoreToStore"/>
+      <class name="TestCases.TC_Customer_Invoice"/>
+      <class name="TestCases.TC_Add_New_Bank"/>
+      <class name="TestCases.TC_StockTransfer"/>
+      <class name="TestCases.TC_CustomersaveandAddOther"/>
+      <class name="TestCases.TC_Edit_Update_Item_ManageItem"/>
+      <class name="TestCases.TC_Import_Item"/>
+      <class name="TestCases.TC_Smoke_Test_Profile"/>
+      <class name="TestCases.TC_Item_Search"/>
+      <class name="TestCases.TC_ExportCustomerExcel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

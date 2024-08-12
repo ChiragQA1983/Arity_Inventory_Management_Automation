@@ -1,0 +1,3679 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Arity_Inventory Test Report</title>
+<link rel="apple-touch-icon" href="spark/logo.png">
+<link rel="shortcut icon" href="spark/logo.png">
+<link rel="stylesheet" href="spark/spark-style.css">
+<link rel="stylesheet" href="spark/font-awesome.min.css">
+<script src="spark/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('spark/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation_Test_Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 31, 2024 07:48:03 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('device-view')">
+<a id="nav-device" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tablet"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">ChiragBhatt</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">SmokeTest</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
+<ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">chrome</a><a class="dropdown-item" href="#">Firefox</a><a class="dropdown-item" href="#">Chrome</a><a class="dropdown-item" href="#">Edge</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">SearchCustomer Test</p>
+            <p class="text-sm">
+              <span>7:48:16 AM</span> / <span>00:00:12:117</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">SearchCustomer Test</h5>
+<span class='badge badge-success'>01.31.2024 7:48:16 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:48:29 AM</span>
+<span class='badge badge-default'>00:00:12:117</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:20 AM</td>
+        <td>
+          Click on Ministore
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:22 AM</td>
+        <td>
+          Select Main Stock Point
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:22 AM</td>
+        <td>
+          Select Shipping Address
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:23 AM</td>
+        <td>
+          Click on Product Search and Select Item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:25 AM</td>
+        <td>
+          Enter the Cashamt, Wallettype, Walletamount, Paynotes, Billtype from config.properties file, can change dynamically
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:26 AM</td>
+        <td>
+          Click on SaveButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:29 AM</td>
+        <td>
+          Validate Invoice Details text should generated once user click on savebtn
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Qty Add to Item</p>
+            <p class="text-sm">
+              <span>7:48:36 AM</span> / <span>00:00:14:206</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Qty Add to Item</h5>
+<span class='badge badge-success'>01.31.2024 7:48:36 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:48:50 AM</span>
+<span class='badge badge-default'>00:00:14:206</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:36 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:43 AM</td>
+        <td>
+          Click on importItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:44 AM</td>
+        <td>
+          Click on ManageItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:46 AM</td>
+        <td>
+          Click on AddQtyItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:46 AM</td>
+        <td>
+          Taking item search from config.properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:49 AM</td>
+        <td>
+          Add Quantity from Config.properties file
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:50 AM</td>
+        <td>
+          click on savebutton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:50 AM</td>
+        <td>
+          Validate the webPage by title, after savebutton webpage should be route manage product
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">This is Add Notification Functionality Test</p>
+            <p class="text-sm">
+              <span>7:48:54 AM</span> / <span>00:00:35:636</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">This is Add Notification Functionality Test</h5>
+<span class='badge badge-success'>01.31.2024 7:48:54 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:49:30 AM</span>
+<span class='badge badge-default'>00:00:35:636</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:48:54 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          Click on Notification Module
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:19 AM</td>
+        <td>
+          Add notification
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:23 AM</td>
+        <td>
+          Click on Notification SearchNotification Textbox for Add SPH/MSPH
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:23 AM</td>
+        <td>
+          Switch to iframe for perform operation in richtextbox
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:25 AM</td>
+        <td>
+          Enter the RichText Value
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:25 AM</td>
+        <td>
+          Switch to Parent Content for further interactions
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:25 AM</td>
+        <td>
+          Click on Save Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:28 AM</td>
+        <td>
+          Find the view port of save button using scrollIntoView and Click on Save Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:49:30 AM</td>
+        <td>
+          Validate by richtext test content that store notification is present in table or not
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Customer Import From CSV file</p>
+            <p class="text-sm">
+              <span>7:49:34 AM</span> / <span>00:00:31:326</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Customer Import From CSV file</h5>
+<span class='badge badge-success'>01.31.2024 7:49:34 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:50:05 AM</span>
+<span class='badge badge-default'>00:00:31:326</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:01 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:01 AM</td>
+        <td>
+          Click on Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:03 AM</td>
+        <td>
+          Click on Import Customer CSV
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:03 AM</td>
+        <td>
+          Click on Choosefile and Select CSV from Test Project Path
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:05 AM</td>
+        <td>
+          Click on Submit Button and Customer Import from CSVfile
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:05 AM</td>
+        <td>
+          Customer Successfully Added from CSV file
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>7:50:10 AM</span> / <span>00:00:36:297</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 7:50:10 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:50:46 AM</span>
+<span class='badge badge-default'>00:00:36:297</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:37 AM</td>
+        <td>
+          Login to Admin Panel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:37 AM</td>
+        <td>
+          click on item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:37 AM</td>
+        <td>
+          click on manageitem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:39 AM</td>
+        <td>
+          click on dumpstock
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:39 AM</td>
+        <td>
+          Enter the item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:42 AM</td>
+        <td>
+          select the Item
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:45 AM</td>
+        <td>
+          Enter the Quantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:46 AM</td>
+        <td>
+          Click on SaveButton
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">New retail store add</p>
+            <p class="text-sm">
+              <span>7:50:50 AM</span> / <span>00:00:45:648</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">New retail store add</h5>
+<span class='badge badge-success'>01.31.2024 7:50:50 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:51:36 AM</span>
+<span class='badge badge-default'>00:00:45:648</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:50:50 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:51:28 AM</td>
+        <td>
+          Click on store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:51:34 AM</td>
+        <td>
+          Entered product detail
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:51:36 AM</td>
+        <td>
+          select product
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">SearchCustomer Test</p>
+            <p class="text-sm">
+              <span>7:52:12 AM</span> / <span>00:00:16:491</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">SearchCustomer Test</h5>
+<span class='badge badge-success'>01.31.2024 7:52:12 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:52:29 AM</span>
+<span class='badge badge-default'>00:00:16:491</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:12 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:22 AM</td>
+        <td>
+          Click on Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:22 AM</td>
+        <td>
+          Click on ManageCustomer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:29 AM</td>
+        <td>
+          Click on SearchButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:29 AM</td>
+        <td>
+          Validated Serch Result Located or not?
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:52:29 AM</td>
+        <td>
+          Search customer test is pass successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Consistency Customer_ImportCSV</p>
+            <p class="text-sm">
+              <span>7:52:35 AM</span> / <span>00:00:38:439</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Consistency Customer_ImportCSV</h5>
+<span class='badge badge-success'>01.31.2024 7:52:35 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:53:14 AM</span>
+<span class='badge badge-default'>00:00:38:439</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:53:01 AM</td>
+        <td>
+          Login Test started successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:01 AM</td>
+        <td>
+          Click on Customer Option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:03 AM</td>
+        <td>
+          Click on ConsistencyCustomerOption
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:04 AM</td>
+        <td>
+          Click on DownloadSampleCSV
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:14 AM</td>
+        <td>
+          CSV is Loaded
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Invalid Customer field CSVfile Test</p>
+            <p class="text-sm">
+              <span>7:53:18 AM</span> / <span>00:00:32:136</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Invalid Customer field CSVfile Test</h5>
+<span class='badge badge-success'>01.31.2024 7:53:18 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:53:50 AM</span>
+<span class='badge badge-default'>00:00:32:136</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:47 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:47 AM</td>
+        <td>
+          Click on Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:48 AM</td>
+        <td>
+          Click on ImportCSV
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:48 AM</td>
+        <td>
+          Click on Choosefile
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:50 AM</td>
+        <td>
+          Click on Submit Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:50 AM</td>
+        <td>
+          Invalid Customer field CSV didn't got uploaded!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:50 AM</td>
+        <td>
+          Successful Test Invalid Customer field CSVfile Test
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Valid and Invalid Login Test Cases</p>
+            <p class="text-sm">
+              <span>7:53:54 AM</span> / <span>00:00:03:769</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Valid and Invalid Login Test Cases</h5>
+<span class='badge badge-success'>01.31.2024 7:53:54 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:53:58 AM</span>
+<span class='badge badge-default'>00:00:03:769</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:53:58 AM</td>
+        <td>
+          Perform test with Both Username and Password Invalid
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Valid and Invalid Login Test Cases</p>
+            <p class="text-sm">
+              <span>7:54:12 AM</span> / <span>00:00:02:196</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Valid and Invalid Login Test Cases</h5>
+<span class='badge badge-success'>01.31.2024 7:54:12 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:54:14 AM</span>
+<span class='badge badge-default'>00:00:02:196</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:12 AM</td>
+        <td>
+          Perform test with Valid Username and Password Invalid
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:12 AM</td>
+        <td>
+          Perform test with Valid Username and Password Invalid
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:14 AM</td>
+        <td>
+          All Valid and Invalid Test Perform As Expected
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Firefox Chrome Edge">
+          <div class="test-detail">
+            <p class="name">Blank value Input Test </p>
+            <p class="text-sm">
+              <span>7:54:14 AM</span> / <span>00:00:00:623</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Blank value Input Test </h5>
+<span class='badge badge-success'>01.31.2024 7:54:14 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:54:15 AM</span>
+<span class='badge badge-default'>00:00:00:623</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Firefox</span>
+<span class="badge badge-pill badge-default">Chrome</span>
+<span class="badge badge-pill badge-default">Edge</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:14 AM</td>
+        <td>
+          Perform Blank Value Input Test
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:15 AM</td>
+        <td>
+          Blank value test perform as expected
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>7:54:19 AM</span> / <span>00:00:29:790</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 7:54:19 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:54:49 AM</span>
+<span class='badge badge-default'>00:00:29:790</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:19 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:46 AM</td>
+        <td>
+          Click on Add Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:47 AM</td>
+        <td>
+          Enter ID through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:47 AM</td>
+        <td>
+          Enter Name through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:47 AM</td>
+        <td>
+          Enter Email through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:47 AM</td>
+        <td>
+          Enter MobileNo. through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:48 AM</td>
+        <td>
+          Enter Whatsup MobileNo. through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:48 AM</td>
+        <td>
+          Enter Address through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:48 AM</td>
+        <td>
+          Enter AadharNo through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:48 AM</td>
+        <td>
+          Enter City through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:49 AM</td>
+        <td>
+          Enter StateDropDown through Code
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:49 AM</td>
+        <td>
+          Enter GSTNo. through Excel TestData Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:49 AM</td>
+        <td>
+          Click on Save Button
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>7:54:51 AM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 7:54:51 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:54:51 AM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:54:51 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>7:56:14 AM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 7:56:14 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:56:14 AM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:56:14 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>7:57:36 AM</span> / <span>00:00:00:002</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 7:57:36 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:57:36 AM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:57:36 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>7:59:03 AM</span> / <span>00:00:28:003</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 7:59:03 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:59:31 AM</span>
+<span class='badge badge-default'>00:00:28:003</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:27 AM</td>
+        <td>
+          Login the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:27 AM</td>
+        <td>
+          Test for Bank Transaction
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:27 AM</td>
+        <td>
+          Click on Bank
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:28 AM</td>
+        <td>
+          Click on the BankTransaction
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:28 AM</td>
+        <td>
+          Entered the AccountID
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:29 AM</td>
+        <td>
+          Entered the Amount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:29 AM</td>
+        <td>
+          Enter the Description
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:31 AM</td>
+        <td>
+          Click on Save Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:31 AM</td>
+        <td>
+          Success Message Got Displayed!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:31 AM</td>
+        <td>
+          Validated the Bank Transaction Entry
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>7:59:34 AM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 7:59:34 AM</span>
+<span class='badge badge-danger'>01.31.2024 7:59:34 AM</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:59:34 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Correct Username and Correct Password Login Test</p>
+            <p class="text-sm">
+              <span>8:00:47 AM</span> / <span>00:00:19:653</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Correct Username and Correct Password Login Test</h5>
+<span class='badge badge-success'>01.31.2024 8:00:47 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:01:06 AM</span>
+<span class='badge badge-default'>00:00:19:653</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:00:47 AM</td>
+        <td>
+          Login with Correct Admin Login Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:06 AM</td>
+        <td>
+          Validate correct Login by Lending WebPage as Dashboard
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:06 AM</td>
+        <td>
+          All Valid and Invalid Testcases Pass Successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>8:01:10 AM</span> / <span>00:00:53:261</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 8:01:10 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:02:04 AM</span>
+<span class='badge badge-default'>00:00:53:261</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:36 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:37 AM</td>
+        <td>
+          Click on Retail Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Click on AddRetail Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Add StoreName from ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Add StoreAddress from ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Add PinCode from ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:38 AM</td>
+        <td>
+          Add StoreCity from ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:39 AM</td>
+        <td>
+          Add State Value through ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:39 AM</td>
+        <td>
+          Add billing Prefix from testdata Excelsheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Add BillingPrefix through ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Add EmailID through ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Read Password from testdata Excelsheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Add Password through ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Add Quantity through ReadData.xls
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:42 AM</td>
+        <td>
+          Click on SaveButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:01:43 AM</td>
+        <td>
+          Click on Save Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:04 AM</td>
+        <td>
+          Validate Retail Store Add Successfully by SuccessMessage Text
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Validate Store to Store Cell</p>
+            <p class="text-sm">
+              <span>8:02:08 AM</span> / <span>00:00:32:233</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate Store to Store Cell</h5>
+<span class='badge badge-success'>01.31.2024 8:02:08 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:02:41 AM</span>
+<span class='badge badge-default'>00:00:32:233</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:08 AM</td>
+        <td>
+          Login with Admin credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:37 AM</td>
+        <td>
+          Click on StoreMiniStore 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:37 AM</td>
+        <td>
+          Click on ManageStore/MiniStore
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:39 AM</td>
+        <td>
+          Click on Store to Store
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:40 AM</td>
+        <td>
+          Click on Store DropDown and Select Test Value Mentioned in Config.Properties testdata
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:40 AM</td>
+        <td>
+          Click on Add button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:41 AM</td>
+        <td>
+          Wait for table to be present
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:41 AM</td>
+        <td>
+          Find the table cell that contains Testvalue
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:41 AM</td>
+        <td>
+          Validate the Store Transfer Value is Present in WebTable
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:41 AM</td>
+        <td>
+          Enter the Assertions for validate the Entered test value
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:02:41 AM</td>
+        <td>
+          Successfully executed the test case
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>8:03:05 AM</span> / <span>00:00:27:037</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 8:03:05 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:03:32 AM</span>
+<span class='badge badge-default'>00:00:27:037</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:15 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:16 AM</td>
+        <td>
+          click on customer invoice
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:16 AM</td>
+        <td>
+          Enter the customer id information from config.properties
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:19 AM</td>
+        <td>
+          Enter the shipaddress
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:21 AM</td>
+        <td>
+          Enter the product information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:24 AM</td>
+        <td>
+          Enter the CashAmt 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:29 AM</td>
+        <td>
+          Enter the CashCard Amt from config.properties 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:30 AM</td>
+        <td>
+          Enter the WalletType from config.properties
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:30 AM</td>
+        <td>
+          Enter the WalletAmount from config.properties
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:30 AM</td>
+        <td>
+          Enter the Paynotes Details from config.properties testdata
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:30 AM</td>
+        <td>
+          Select Bill type value from config.properties test data
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:32 AM</td>
+        <td>
+          Click on SaveButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:03:32 AM</td>
+        <td>
+          Locate the Invoice Text Invoice Details for Validation
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="Chrome">
+          <div class="test-detail">
+            <p class="name">Add New Customer</p>
+            <p class="text-sm">
+              <span>8:03:57 AM</span> / <span>00:00:12:173</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add New Customer</h5>
+<span class='badge badge-success'>01.31.2024 8:03:57 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:04:09 AM</span>
+<span class='badge badge-default'>00:00:12:173</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">Chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:06 AM</td>
+        <td>
+          Login the application
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:06 AM</td>
+        <td>
+          Click on Bank Option
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:06 AM</td>
+        <td>
+          Click on Add new Bank
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:07 AM</td>
+        <td>
+          Enter the BankName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:07 AM</td>
+        <td>
+          Enter the BankAccountName
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:07 AM</td>
+        <td>
+          Enter the BankAccountNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:07 AM</td>
+        <td>
+          Enter the Branch
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:09 AM</td>
+        <td>
+          Click on SaveButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:09 AM</td>
+        <td>
+          Displayed SuccessMessage
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:09 AM</td>
+        <td>
+          Perform Test Validation Based on SuccessAlert!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:09 AM</td>
+        <td>
+          Validate the Bank Account is entered Successfully!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">New retail store add</p>
+            <p class="text-sm">
+              <span>8:04:27 AM</span> / <span>00:00:20:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">New retail store add</h5>
+<span class='badge badge-success'>01.31.2024 8:04:27 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:04:47 AM</span>
+<span class='badge badge-default'>00:00:20:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:27 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:32 AM</td>
+        <td>
+          Click on StoreRetails
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:34 AM</td>
+        <td>
+          Click on SearchTextBox and Select the Value using Enter Key
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:37 AM</td>
+        <td>
+          Enter the Shipping Address by Click and Enter Key Action
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:39 AM</td>
+        <td>
+          Select item by performing Arrow Down Key and Enter Key for stock transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:44 AM</td>
+        <td>
+          Add amount for stock transfer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:44 AM</td>
+        <td>
+          Select transfer type
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:45 AM</td>
+        <td>
+          Enter WallAmount
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:04:47 AM</td>
+        <td>
+          Validated Stock transfer Success Message
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>8:04:51 AM</span> / <span>00:00:49:741</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 8:04:51 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:05:41 AM</span>
+<span class='badge badge-default'>00:00:49:741</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:14 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:14 AM</td>
+        <td>
+          Click on Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:15 AM</td>
+        <td>
+          Click on AddCustomer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:15 AM</td>
+        <td>
+          Enter customer ID from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 AM</td>
+        <td>
+          Enter customer Name from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 AM</td>
+        <td>
+          Enter customer Email from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 AM</td>
+        <td>
+          Enter customer MobileNo from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 AM</td>
+        <td>
+          Enter customer Whatsup number from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:16 AM</td>
+        <td>
+          Enter customer Address from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:17 AM</td>
+        <td>
+          Enter customer AadharNumber from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:17 AM</td>
+        <td>
+          Enter customer City from ReadData.xls Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:17 AM</td>
+        <td>
+          Enter State from DropDown Code Value
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:19 AM</td>
+        <td>
+          Enter GST No. From testExcel Sheet
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:19 AM</td>
+        <td>
+          Click on Save and Add Customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:20 AM</td>
+        <td>
+          Validated through Success Message that CustomerEntry is Successfully Done
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:05:41 AM</td>
+        <td>
+          SaveAndAddOther Customer Successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Add Customer Invoice</p>
+            <p class="text-sm">
+              <span>8:05:41 AM</span> / <span>00:00:00:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Add Customer Invoice</h5>
+<span class='badge badge-success'>01.31.2024 8:05:41 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:05:41 AM</span>
+<span class='badge badge-default'>00:00:00:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Edit Update Item from Manage Item!</p>
+            <p class="text-sm">
+              <span>8:07:29 AM</span> / <span>00:00:15:211</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Edit Update Item from Manage Item!</h5>
+<span class='badge badge-success'>01.31.2024 8:07:29 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:07:44 AM</span>
+<span class='badge badge-default'>00:00:15:211</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:38 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:38 AM</td>
+        <td>
+          Click on importItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:40 AM</td>
+        <td>
+          Click on ManageItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:42 AM</td>
+        <td>
+          Click on Pencil Button Icon for Edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:42 AM</td>
+        <td>
+          Edit and update item quantity
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:07:44 AM</td>
+        <td>
+          click on save button
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">SearchCustomer Test</p>
+            <p class="text-sm">
+              <span>8:07:51 AM</span> / <span>00:00:29:924</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">SearchCustomer Test</h5>
+<span class='badge badge-success'>01.31.2024 8:07:51 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:08:21 AM</span>
+<span class='badge badge-default'>00:00:29:924</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:13 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:14 AM</td>
+        <td>
+          Click on importItem
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:15 AM</td>
+        <td>
+          Click on Choosefile
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:18 AM</td>
+        <td>
+          Click on SubmitButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:21 AM</td>
+        <td>
+          Validate importcsv by success message!
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Customer Import From CSV file</p>
+            <p class="text-sm">
+              <span>8:08:26 AM</span> / <span>00:00:30:305</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Customer Import From CSV file</h5>
+<span class='badge badge-success'>01.31.2024 8:08:26 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:08:57 AM</span>
+<span class='badge badge-default'>00:00:30:305</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:26 AM</td>
+        <td>
+          Login with Admin Credentials
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:50 AM</td>
+        <td>
+          Click on Profile Section
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:56 AM</td>
+        <td>
+          Validated User Successfully Moved to Profile 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:08:57 AM</td>
+        <td>
+          Smoke test for profile displayed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">Search Functionality Test</p>
+            <p class="text-sm">
+              <span>8:09:01 AM</span> / <span>00:00:22:440</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Search Functionality Test</h5>
+<span class='badge badge-success'>01.31.2024 8:09:01 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:09:23 AM</span>
+<span class='badge badge-default'>00:00:22:440</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:09:01 AM</td>
+        <td>
+          <span class='badge white-text green'>Login Test Completed Successfully</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:09:23 AM</td>
+        <td>
+          This is Test for Search Item Functionality
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author="ChiragBhatt"
+          tag="SmokeTest"
+          device="chrome">
+          <div class="test-detail">
+            <p class="name">ExportCustomerListExcel</p>
+            <p class="text-sm">
+              <span>8:09:39 AM</span> / <span>00:00:50:234</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ExportCustomerListExcel</h5>
+<span class='badge badge-success'>01.31.2024 8:09:39 AM</span>
+<span class='badge badge-danger'>01.31.2024 8:10:29 AM</span>
+<span class='badge badge-default'>00:00:50:234</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">ChiragBhatt</span>
+<span class="badge badge-pill badge-default">SmokeTest</span>
+<span class="badge badge-pill badge-default">chrome</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:10:22 AM</td>
+        <td>
+          Login with Admin Panel
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:10:23 AM</td>
+        <td>
+          Click on customer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:10:25 AM</td>
+        <td>
+          Click on ManageCustomer
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:10:29 AM</td>
+        <td>
+          Click on Export Customer Excel
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>31</span>
+</span>
+<p class="name">SmokeTest</p>
+<p class="duration text-sm">31 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>SmokeTest</h4>
+<span status="pass" class='badge log pass-bg'>31 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Qty Add to Item</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>This is Add Notification Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:49:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Consistency Customer_ImportCSV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Invalid Customer field CSVfile Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Blank value Input Test </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:56:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:57:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:00:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Correct Username and Correct Password Login Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Validate Store to Store Cell</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:05:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Edit Update Item from Manage Item!</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:08:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Search Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>ExportCustomerListExcel</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>19</span>
+</span>
+<p class="name">chrome</p>
+<p class="duration text-sm">19 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>chrome</h4>
+<span status="pass" class='badge log pass-bg'>19 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Qty Add to Item</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>This is Add Notification Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:49:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Consistency Customer_ImportCSV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Invalid Customer field CSVfile Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:05:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Edit Update Item from Manage Item!</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:08:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Search Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>ExportCustomerListExcel</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Firefox</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Firefox</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Blank value Input Test </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>12</span>
+</span>
+<p class="name">Chrome</p>
+<p class="duration text-sm">12 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Chrome</h4>
+<span status="pass" class='badge log pass-bg'>12 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Blank value Input Test </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:56:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:57:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:00:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Correct Username and Correct Password Login Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Validate Store to Store Cell</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Add New Customer</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Edge</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Edge</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Blank value Input Test </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>31</span>
+</span>
+<p class="name">ChiragBhatt</p>
+<p class="duration text-sm">31 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>ChiragBhatt</h4>
+<span status="pass" class='badge log pass-bg'>31 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:16 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Qty Add to Item</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:48:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>This is Add Notification Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:49:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:50:50 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:52:35 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Consistency Customer_ImportCSV</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Invalid Customer field CSVfile Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:53:54 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:12 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Valid and Invalid Login Test Cases</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Blank value Input Test </a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:54:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:56:14 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:57:36 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:03 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:59:34 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:00:47 AM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Correct Username and Correct Password Login Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:01:10 AM</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:02:08 AM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Validate Store to Store Cell</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:05 AM</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:03:57 AM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Add New Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:27 AM</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>New retail store add</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:04:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:05:41 AM</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Add Customer Invoice</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:29 AM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Edit Update Item from Manage Item!</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:07:51 AM</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>SearchCustomer Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:08:26 AM</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Customer Import From CSV file</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:01 AM</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Search Functionality Test</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>08:09:39 AM</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>ExportCustomerListExcel</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 31, 2024 07:48:03 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 31, 2024 08:10:29 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>31</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>31</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='1%'><b>2</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>193</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>ChiragBhatt</td>
+<td>31</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>SmokeTest</td>
+<td>31</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 device-container">
+<div class="card">
+<div class="card-header"><p>Device</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>chrome</td>
+<td>19</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Firefox</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Chrome</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Edge</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 31,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 2,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 193
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="spark/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
